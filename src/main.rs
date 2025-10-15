@@ -24,8 +24,8 @@ async fn main() {
         // Draw a single 8x8 *unit* tile at position (10,10) units:
         draw_texture_ex(
             &tile_texture,
-            10.0, // x in units
-            10.0, // y in units
+            180.0, // x in units
+            180.0, // y in units
             WHITE,
             DrawTextureParams {
                 // IMPORTANT: size in *units*, not pixels.
