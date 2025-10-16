@@ -25,19 +25,4 @@ pub fn draw_floor(game_cam: &GameCamera, tile_texture: &Texture2D) {
             }),
         );
     }
-
-    // for x in 0..game_cam.() as i32 {
-    //     for y in 0..game_cam.screen_height_units() as i32 {
-    //         draw_texture_ex(
-    //             tile_texture,
-    //             units_to_vpx(x as f32),
-    //             units_to_vpx(y as f32),
-    //             WHITE,
-    //             DrawTextureParams {
-    //                 dest_size: Some(vec2(1.0, 1.0)),
-    //                 ..Default::default()
-    //             },
-    //         );
-    //     }
-    // }
 }
