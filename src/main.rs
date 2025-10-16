@@ -27,18 +27,6 @@ async fn main() {
     loop {
         game_cam.begin();
 
-        // Another tile, half the size (4x4 units) at a different location:
-        // draw_texture_ex(
-        //     &tile_texture,
-        //     25.0,
-        //     12.0,
-        //     WHITE,
-        //     DrawTextureParams {
-        //         dest_size: Some(vec2(1.0, 1.0)),
-        //         ..Default::default()
-        //     },
-        // );
-
         draw_floor(&game_cam, &tile_texture);
 
         game_cam.end();
